@@ -53,8 +53,6 @@ export class ResourcesService {
             this.requestsService.getResById(obj.link)
                 .subscribe((data: any)=> {
                     obj.obj = data;
-                    console.log(obj);
-                    console.log(obj.obj['results']);
                 });
         }
         this.resActive = obj;
