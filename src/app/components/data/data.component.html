@@ -5,7 +5,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let row of data(resourcesService.resActive.obj.results, resourcesService.currentPage)"
+    <tr class="table-tr" *ngFor="let row of data(resourcesService.resActive.obj.results, resourcesService.currentPage)"
         (click)="resourcesService.selectedRow = row">
         <td *ngFor="let configField of filteredFields(resourcesService.config[resourcesService.resActive.name])">{{row[configField.key]}}</td>
     </tr>
@@ -19,7 +19,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let row of filteredFieldsSearch(resourcesService.resActive, resourcesService.str)"
+    <tr class="table-tr" *ngFor="let row of filteredFieldsSearch(resourcesService.resActive, resourcesService.str)"
         (click)="resourcesService.selectedRow = row">
         <td *ngFor="let configField of filteredFields(resourcesService.config[resourcesService.resActive.name])">{{row[configField.key]}}</td>
     </tr>
