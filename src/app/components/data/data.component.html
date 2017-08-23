@@ -45,7 +45,7 @@
             <div class="modal-body">
                 <div class="container info-block">
                     <div class="row info-row" *ngFor="let configField of resourcesService.config[resourcesService.resActive.name]">
-                        <div class="col-3">{{configField.name}}:</div>
+                        <div class="col-3 info-title">{{configField.name}}:</div>
                         <div class="col-9 info-text">{{resourcesService.selectedRow[configField.key]}}</div>
                     </div>
                 </div>
