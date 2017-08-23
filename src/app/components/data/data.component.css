@@ -7,3 +7,13 @@
 .show{
     display: block;
 }
+.info-block{
+    overflow: hidden;
+}
+.info-text{
+    word-wrap: break-word;
+}
+.info-row{
+    border-bottom: 1px solid silver;
+    padding: 5px 0;
+}
