@@ -32,20 +32,7 @@ export class DataComponent implements OnInit {
                 }
             }
         });
-
         return filteredRows;
-
-        // return arr.filter((item) => {
-        //     if( item.indexOf(this.resourcesService.str)) {
-        //         return item.name;
-        //     }
-        // });
-
-        //  var qwe = function() {};
-        // const asd = () => {};
-        // const asd = (qwe) => {return true;};
-        // const asd = qwe => true;
-
     }
 
     public data(list, currentPage) {

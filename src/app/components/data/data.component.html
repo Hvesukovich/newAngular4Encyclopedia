@@ -47,7 +47,6 @@
                     <div class="row" *ngFor="let configField of resourcesService.config[resourcesService.resActive.name]">
                         <div class="col-3">{{configField.name}}:</div>
                         <div class="col-9">{{resourcesService.selectedRow[configField.key]}}</div>
-                        <!--<div class="col-9" *ngIf="resourcesService.selectedRow[configField.key]">{{detailsFields(resourcesService.selectedRow[configField.key]) | async}}</div>-->
                     </div>
                 </div>
             </div>

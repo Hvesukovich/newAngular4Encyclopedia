@@ -10,7 +10,6 @@ import {DataComponent} from './components/data/data.component';
 import {PaginationComponent} from './components/pagination/pagination.component';
 import {ResourcesService} from './services/resources.service';
 import {RequestsService} from './services/requests.service';
-// import {HttpModule} from "@angular/http";
 import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
@@ -24,7 +23,6 @@ import {HttpClientModule} from '@angular/common/http';
     ],
     imports: [
         BrowserModule,
-        // HttpModule,
         HttpClientModule,
         FormsModule
     ],
