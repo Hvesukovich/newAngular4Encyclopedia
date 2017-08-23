@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ResourcesService} from "../../services/resources.service";
+import {ResourcesService} from '../../services/resources.service';
 
 @Component({
     selector: 'app-search',
@@ -7,9 +7,8 @@ import {ResourcesService} from "../../services/resources.service";
     styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-    
-    constructor(private resourcesService: ResourcesService) {
-    }
+
+    constructor(private resourcesService: ResourcesService) {}
 
     ngOnInit() {
     }

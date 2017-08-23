@@ -7,9 +7,7 @@ import {ResourcesService} from './services/resources.service';
     styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    title = 'app';
 
     constructor(private resourcesService: ResourcesService) {
-        resourcesService.getResources();
     }
 }

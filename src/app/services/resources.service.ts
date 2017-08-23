@@ -17,7 +17,8 @@ export class ResourcesService {
     public config: any = {};
 
 
-    constructor(private requestsService:RequestsService) {
+    constructor(private requestsService: RequestsService) {
+        this.getResources();
         this.getPeopleJson();
     }
 

@@ -8,7 +8,7 @@ import {ResourcesService} from '../../services/resources.service';
 })
 export class DataComponent implements OnInit {
 
-    constructor(private resourcesService:ResourcesService) {
+    constructor(private resourcesService: ResourcesService) {
     }
 
     ngOnInit() {
@@ -24,7 +24,7 @@ export class DataComponent implements OnInit {
         const rows = selectedResurs.obj.results;
         let filteredRows = [];
         filteredRows = rows.filter((row) => {
-            for (let key in row) {
+            for (const key in row) {
                 if (row[key] && typeof row[key] === 'string') {
                     if (row[key].toUpperCase().indexOf(str.toUpperCase()) !== -1) {
                         return true;
@@ -36,8 +36,8 @@ export class DataComponent implements OnInit {
     }
 
     public data(list, currentPage) {
-        let arr = [];
-        let length = list.length;
+        const arr = [];
+        const length = list.length;
         let start = (currentPage - 1) * this.resourcesService.col;
         let end;
         if (start + this.resourcesService.col > length) {
