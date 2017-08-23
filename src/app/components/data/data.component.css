@@ -1,0 +1,9 @@
+.info{
+    overflow: auto;
+}
+.btn{
+    cursor: pointer;
+}
+.show{
+    display: block;
+}

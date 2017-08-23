@@ -1,0 +1,61 @@
+<table *ngIf="resourcesService.resActive && !resourcesService.str" class="table table-striped">
+    <thead>
+    <tr>
+        <th *ngFor="let name of filteredFields(resourcesService.config[resourcesService.resActive.name])">{{name.name}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let row of data(resourcesService.resActive.obj.results, resourcesService.currentPage)"
+        (click)="resourcesService.selectedRow = row">
+        <td *ngFor="let configField of filteredFields(resourcesService.config[resourcesService.resActive.name])">{{row[configField.key]}}</td>
+    </tr>
+    </tbody>
+</table>
+
+<table *ngIf="resourcesService.resActive && resourcesService.str" class="table table-striped">
+    <thead>
+    <tr>
+        <th *ngFor="let name of filteredFields(resourcesService.config[resourcesService.resActive.name])">{{name.name}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let row of filteredFieldsSearch(resourcesService.resActive, resourcesService.str)"
+        (click)="resourcesService.selectedRow = row">
+        <td *ngFor="let configField of filteredFields(resourcesService.config[resourcesService.resActive.name])">{{row[configField.key]}}</td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg show info"
+     [ngClass]="{
+         'show':(resourcesService.selectedRow)
+           }"
+     id="exampleModalLong" role="dialog">
+    <div class="modal-dialog modal-lg" role="document" *ngIf="resourcesService.selectedRow">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="mx-auto">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Details</h5>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" (click)="resourcesService.selectedRow = null">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container info">
+                    <div class="row" *ngFor="let configField of resourcesService.config[resourcesService.resActive.name]">
+                        <div class="col-3">{{configField.name}}:</div>
+                        <div class="col-9">{{resourcesService.selectedRow[configField.key]}}</div>
+                        <!--<div class="col-9" *ngIf="resourcesService.selectedRow[configField.key]">{{detailsFields(resourcesService.selectedRow[configField.key]) | async}}</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="mx-auto">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="resourcesService.selectedRow = null">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,479 @@
+{
+  "people": [
+    {
+      "key": "name",
+      "name": "Person name",
+      "showInTable": true
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "showInTable": true
+    },
+    {
+      "key": "mass",
+      "name": "The weight",
+      "showInTable": true
+    },
+    {
+      "key": "hair_color",
+      "name": "Hair color",
+      "showInTable": false
+    },
+    {
+      "key": "skin_color",
+      "name": "Color of the skin",
+      "showInTable": false
+    },
+    {
+      "key": "eye_color",
+      "name": "Eye color",
+      "showInTable": false
+    },
+    {
+      "key": "birth_year",
+      "name": "Year of birth",
+      "showInTable": false
+    },
+    {
+      "key": "gender",
+      "name": "Floor",
+      "showInTable": false
+    },
+    {
+      "key": "homeworld",
+      "name": "Home world",
+      "showInTable": false
+    },
+    {
+      "key": "films",
+      "name": "Movies in which participated",
+      "showInTable": false
+    },
+    {
+      "key": "species",
+      "name": "Species Instance",
+      "showInTable": false
+    },
+    {
+      "key": "vehicles",
+      "name": "Vehicle Instance",
+      "showInTable": false
+    },
+    {
+      "key": "starships",
+      "name": "Starship Instance",
+      "showInTable": false
+    },
+    {
+      "key": "created",
+      "name": "Created",
+      "showInTable": false
+    },
+    {
+      "key": "edited",
+      "name": "Edited",
+      "showInTable": false
+    },
+    {
+      "key": "url",
+      "name": "Url",
+      "showInTable": false
+    }
+  ],
+  "films": [
+    {
+      "key": "title",
+      "name": "Title",
+      "showInTable": true
+    },
+    {
+      "key": "episode_id",
+      "name": "Episode id",
+      "showInTable": true
+    },
+    {
+      "key": "opening_crawl",
+      "name": "Opening crawl",
+      "showInTable": false
+    },
+    {
+      "key": "director",
+      "name": "Director",
+      "showInTable": true
+    },
+    {
+      "key": "producer",
+      "name": "Producer",
+      "showInTable": true
+    },
+    {
+      "key": "release_date",
+      "name": "Release date",
+      "showInTable": false
+    },
+    {
+      "key": "characters",
+      "name": "Characters",
+      "showInTable": false
+    },
+    {
+      "key": "planets",
+      "name": "Planets",
+      "showInTable": false
+    },
+    {
+      "key": "starships",
+      "name": "Starships",
+      "showInTable": false
+    },
+    {
+      "key": "vehicles",
+      "name": "Vehicles",
+      "showInTable": false
+    },
+    {
+      "key": "species",
+      "name": "Species",
+      "showInTable": false
+    },
+    {
+      "key": "created",
+      "name": "Created",
+      "showInTable": false
+    },
+    {
+      "key": "edited",
+      "name": "Edited",
+      "showInTable": false
+    },
+    {
+      "key": "url",
+      "name": "Url",
+      "showInTable": false
+    }
+  ],
+  "planets": [
+    {
+      "key": "name",
+      "name": "Name of the planet",
+      "showInTable": true
+    },
+    {
+      "key": "rotation_period",
+      "name": "Rotation period",
+      "showInTable": true
+    },
+    {
+      "key": "orbital_period",
+      "name": "Orbital period",
+      "showInTable": true
+    },
+    {
+      "key": "diameter",
+      "name": "Diameter of the planet",
+      "showInTable": false
+    },
+    {
+      "key": "climate",
+      "name": "Climate",
+      "showInTable": false
+    },
+    {
+      "key": "gravity",
+      "name": "Gravity",
+      "showInTable": false
+    },
+    {
+      "key": "terrain",
+      "name": "Terrain",
+      "showInTable": false
+    },
+    {
+      "key": "surface_water",
+      "name": "Surface water",
+      "showInTable": false
+    },
+    {
+      "key": "population",
+      "name": "Population",
+      "showInTable": false
+    },
+    {
+      "key": "residents",
+      "name": "Residents",
+      "showInTable": false
+    },
+    {
+      "key": "films",
+      "name": "Films",
+      "showInTable": false
+    },
+    {
+      "key": "created",
+      "name": "Created",
+      "showInTable": false
+    },
+    {
+      "key": "edited",
+      "name": "Edited",
+      "showInTable": false
+    },
+    {
+      "key": "url",
+      "name": "Url",
+      "showInTable": false
+    }
+  ],
+  "species": [
+    {
+      "key": "name",
+      "name": "Name",
+      "showInTable": true
+    },
+    {
+      "key": "classification",
+      "name": "Classification",
+      "showInTable": true
+    },
+    {
+      "key": "designation",
+      "name": "Designation",
+      "showInTable": true
+    },
+    {
+      "key": "average_height",
+      "name": "Average height",
+      "showInTable": false
+    },
+    {
+      "key": "skin_colors",
+      "name": "Skin colors",
+      "showInTable": false
+    },
+    {
+      "key": "hair_colors",
+      "name": "Hair colors",
+      "showInTable": false
+    },
+    {
+      "key": "eye_colors",
+      "name": "Eye colors",
+      "showInTable": false
+    },
+    {
+      "key": "average_lifespan",
+      "name": "Average lifespan",
+      "showInTable": false
+    },
+    {
+      "key": "homeworld",
+      "name": "Homeworld",
+      "showInTable": false
+    },
+    {
+      "key": "language",
+      "name": "Language",
+      "showInTable": false
+    },
+    {
+      "key": "people",
+      "name": "People",
+      "showInTable": false
+    },
+    {
+      "key": "films",
+      "name": "Films",
+      "showInTable": false
+    },
+    {
+      "key": "created",
+      "name": "Created",
+      "showInTable": false
+    },
+    {
+      "key": "edited",
+      "name": "Edited",
+      "showInTable": false
+    },
+    {
+      "key": "url",
+      "name": "Url",
+      "showInTable": false
+    }
+  ],
+  "vehicles": [
+    {
+      "key": "name",
+      "name": "Name",
+      "showInTable": true
+    },
+    {
+      "key": "model",
+      "name": "Model",
+      "showInTable": true
+    },
+    {
+      "key": "manufacturer",
+      "name": "Manufacturer",
+      "showInTable": true
+    },
+    {
+      "key": "cost_in_credits",
+      "name": "Cost in credits",
+      "showInTable": true
+    },
+    {
+      "key": "length",
+      "name": "Length",
+      "showInTable": false
+    },
+    {
+      "key": "max_atmosphering_speed",
+      "name": "Max atmosphering speed",
+      "showInTable": false
+    },
+    {
+      "key": "crew",
+      "name": "Crew",
+      "showInTable": false
+    },
+    {
+      "key": "passengers",
+      "name": "Passengers",
+      "showInTable": false
+    },
+    {
+      "key": "cargo_capacity",
+      "name": "Cargo capacity",
+      "showInTable": false
+    },
+    {
+      "key": "consumables",
+      "name": "Consumables",
+      "showInTable": false
+    },
+    {
+      "key": "vehicle_class",
+      "name": "Vehicle class",
+      "showInTable": false
+    },
+    {
+      "key": "pilots",
+      "name": "Pilots",
+      "showInTable": false
+    },
+    {
+      "key": "films",
+      "name": "Films",
+      "showInTable": false
+    },
+    {
+      "key": "created",
+      "name": "Created",
+      "showInTable": false
+    },
+    {
+      "key": "edited",
+      "name": "Edited",
+      "showInTable": false
+    },
+    {
+      "key": "url",
+      "name": "Url",
+      "showInTable": false
+    }
+  ],
+  "starships": [
+    {
+      "key": "name",
+      "name": "Name",
+      "showInTable": true
+    },
+    {
+      "key": "model",
+      "name": "Model",
+      "showInTable": true
+    },
+    {
+      "key": "manufacturer",
+      "name": "manufacturer",
+      "showInTable": true
+    },
+    {
+      "key": "cost_in_credits",
+      "name": "Cost in credits",
+      "showInTable": true
+    },
+    {
+      "key": "length",
+      "name": "Length",
+      "showInTable": false
+    },
+    {
+      "key": "max_atmosphering_speed",
+      "name": "Max atmosphering speed",
+      "showInTable": false
+    },
+    {
+      "key": "crew",
+      "name": "Crew",
+      "showInTable": false
+    },
+    {
+      "key": "passengers",
+      "name": "Passengers",
+      "showInTable": false
+    },
+    {
+      "key": "cargo_capacity",
+      "name": "Cargo capacity",
+      "showInTable": false
+    },
+    {
+      "key": "consumables",
+      "name": "Consumables",
+      "showInTable": false
+    },
+    {
+      "key": "hyperdrive_rating",
+      "name": "Hyperdrive rating",
+      "showInTable": false
+    },
+    {
+      "key": "MGLT",
+      "name": "MGLT",
+      "showInTable": false
+    },
+    {
+      "key": "starship_class",
+      "name": "Starship class",
+      "showInTable": false
+    },
+    {
+      "key": "pilots",
+      "name": "Pilots",
+      "showInTable": false
+    },
+    {
+      "key": "films",
+      "name": "Films",
+      "showInTable": false
+    },
+    {
+      "key": "created",
+      "name": "Created",
+      "showInTable": false
+    },
+    {
+      "key": "edited",
+      "name": "Edited",
+      "showInTable": false
+    },
+    {
+      "key": "url",
+      "name": "Url",
+      "showInTable": false
+    }
+  ]
+}

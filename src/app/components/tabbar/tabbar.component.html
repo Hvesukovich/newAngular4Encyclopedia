@@ -1,0 +1,10 @@
+<ul class="nav nav-tabs">
+    <li *ngFor="let resource of resourcesService.resources"
+        class="nav-item">
+        <a class="nav-link" href="#" (click)="clickTab(resource)"
+           [ngClass]="{
+         'active':(resource === resourcesService.resActive)
+          }"
+        >{{resource.name}}</a>
+    </li>
+</ul>
