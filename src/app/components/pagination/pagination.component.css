@@ -4,3 +4,6 @@
     align-items: center;
     margin: 15px 0;
 }
+.active-page{
+    background-color: #bb8b8b;
+}
